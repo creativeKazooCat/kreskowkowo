@@ -1,0 +1,105 @@
+html/*edytuje zawartość znacznika html*/
+{
+    scroll-behavior: smooth /*ustawia ładny efekt scrollowania po kliknięciu w guzik*/
+}
+body /*esytuje znacznik body*/
+{
+    margin:0;/*ustawia margines na zero*/
+    padding: 0;/*ustawia odstępy na 0*/
+    font-family: calibri;/*ustawia czcionkę calibri*/
+}
+#header/*edytuje element o id header(# oznacza element o id)*/
+{
+    height: 50px;/*ustaia wysokość na 50 pixeli*/
+    width: 100%;/*ustawia szerokość na 100% dostępnego miejsca*/
+    background-color: #00B3FF;/*ustawia kolor tła na podany obok(zapisany w systemie 16-tkowym ale działa też jak wpiszesz np blue albo red*/
+    font-size:48px;/*ustawia rozmiar czcionki*/
+    color: white;/*ustawia kolor czcionki*/
+    font-weight: bold;/*pogrubia czcionke*/
+     text-align: center;/*wyśrodkowuje tekst*/
+    
+}
+#menu
+{
+ 
+    height: 49.5vh;
+    padding-top: 20vh;/*ustaiwa odstępy na 20% pola tego co jest wyświetlane na monitorze*/
+    width: 48.2%;
+    float: left;/*układa znaczniki div obok siebie od lewej*/
+}
+.photo
+{
+    float: right;/*to samo co wyżej tylko od prawej*/
+    height: 92vh;
+    border-left:solid 1px silver;/*ustawia obramowanie w koloże srebrnym z lewej strony(samo border robi całą ramkę)*/
+    
+}
+#menu>ul/*edytuje znacznik liste w elemencie o id menu*/
+{
+    list-style-type: none;/*wyłącza te takie kropki jak robisz liste*/
+}
+.button/*esytuje element o klasie guzik(. oznacza że edytowany element to klasa*/
+{
+    text-decoration: none;/*wyłącza podkreślenie z hiberłączy*/
+    background-color: #00B3FF;
+    color: white;
+    border-radius: 20px;/*zaokrągla krawędzie*/
+    display: block;/*wyświetla jako element blokowy a nie tekst*/
+    width: 300px;
+    height: 40px;
+    font-size: 24px;/*ustawia rozmiar czcionki*/
+    margin-top: 10px;/*ustawia górny margines*/
+    text-align: center;
+    font-family: arial;
+    padding-top:10px;
+    border:solid 1px lightblue;
+    margin-left: auto;/*to i linia niżej środkuje ten element*/
+    margin-right: auto;
+}
+.button:hover/*ustawia zachowanie po najechaniu myszką*/
+{
+    color: #00B3FF;
+    background-color: white;
+}
+#menu>h1
+{
+    color: #00B3FF;
+    font-size: 48px;
+    text-align: center;
+    padding:20px !important;/*!important ustawia że to jest ważne i musi być nie ważne co cała reszta kodu twierdzi*/
+}
+.content1
+{
+    height: 50vh;
+    width:100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    background-color: #00B3FF;
+    padding-bottom: 50vh;/*odstęp od dołu*/
+    margin: 0;
+    padding-top:0;
+}
+#content2
+{
+    height: 50vh;
+    width:100%;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    margin: 0;
+    padding-top:0;
+    padding-bottom: 50vh;
+    margin-top: auto;
+    margin-bottom: auto
+
+}
+h1
+{
+    
+    padding-bottom: 200px;
+    padding-left: 0 !important;
+}
+#text
+{
+    padding-left: 30px;
+}
