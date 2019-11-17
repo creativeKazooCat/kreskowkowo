@@ -17,6 +17,9 @@ body /*esytuje znacznik body*/
     color: white;/*ustawia kolor czcionki*/
     font-weight: bold;/*pogrubia czcionke*/
      text-align: center;/*wyśrodkowuje tekst*/
+    position: fixed;
+    top: 0;
+    left: 0;
     
 }
 #menu
